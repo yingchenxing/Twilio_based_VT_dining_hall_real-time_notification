@@ -21,6 +21,9 @@ Based on this situation, we have developed a system that can monitor the number 
 This project integrates yolov5, Springboot, Android application and Twilio service. Users are able to customize the time they receive canteen information according to their own schedule, making full use of the Twilio service. The system also provides a full restful api for more detailed customization needs.
 
 ## Project Preview
+![1668096119094](https://user-images.githubusercontent.com/71536778/201512735-56e880ad-603d-442b-9e0e-a9bb45886bfd.png)
+![MOT~2](https://user-images.githubusercontent.com/71536778/201512886-3f3adcc9-f5c1-4086-bc83-d535605812e4.gif)
+
 
 
 ## How I built it
@@ -38,5 +41,9 @@ For computer vision, I did not have time to train a model, so I used the officia
 The biggest problem I encountered was how to implement sending SMS messages containing canteen data for each user at the time they set. I looked for information about it on Google. Then I found the timer function provided by Springboot can implement this feature in an infinite loop. This way I solved the problem of sending SMS every day. For sending on time problem, I wrote an algorithm. This algorithm can be accurate to the minute (in fact, it can also be to the second, this set just to reduce the burden on the server). Each user has a token. At each minute, it checks for users who are set to receive SMS at that minute and resets their token so that they don't receive SMS repeatedly. For those users who don't receive SMS at that time, it just needs to set the flag bit to another value.
 
 ## Accomplishments that I'm proud of
+What I'm most proud of is that even though the system wasn't developed to all the features I envisioned, I'm still amazed at how much progress I was able to make in 36 hours. Also, this is the first time I've used the SMS sending feature and multithreading in my own software. Thanks to Twilio for the free trial credit.
 
-What I learned
+## What I learned
+In this contest, I learned how to use multithreading on Android side and server side. Also, I learned how to use api for SMS.
+
+## What's next for Twilio＿based_VT_dining_hall_real-time_notification
