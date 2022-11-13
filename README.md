@@ -8,7 +8,7 @@
 > https://github.com/yingchenxing/Twilio_based_VT_dining_hall_real-time_notification_server-side
 
 **YOLOv5 project:**
-> 
+> https://github.com/yingchenxing/Twilio_based_VT_dining_hall_real-time_notification_YOLOv5
 
 ## Background
 Virginia Tech has tens of thousands of students on campus. During the usual lunch and dinner rush, the dining halls can become very crowded. However, students have no way of knowing in advance how many people are in each dining hall. The only software that students can use to find out the number of people in the dining halls is Grubhub, but it only shows the number of people who have ordered online. And it's often not up-to-date enough. So it's not uncommon for you only to find out when you get to the cafeteria that you have to spend several minutes in line and what's worse is that you have a very early afternoon class to attend.
