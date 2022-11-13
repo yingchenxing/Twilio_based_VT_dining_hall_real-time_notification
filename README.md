@@ -24,6 +24,8 @@ This project integrates yolov5, Springboot, Android application and Twilio servi
 ![1668096119094](https://user-images.githubusercontent.com/71536778/201512735-56e880ad-603d-442b-9e0e-a9bb45886bfd.png)
 ![MOT~2](https://user-images.githubusercontent.com/71536778/201512886-3f3adcc9-f5c1-4086-bc83-d535605812e4.gif)
 
+<img src="https://user-images.githubusercontent.com/71536778/201506510-373d78de-562d-4b44-a4a0-6eb696619cc9.png" width="300px" /><img src="https://user-images.githubusercontent.com/71536778/201506777-5f5132c7-528f-4c52-8db6-5ba1828d3530.png" width="300px" /><img src="https://user-images.githubusercontent.com/71536778/201513037-2caa7e16-09bd-423e-8a18-0b4ce01701b5.jpg" width="300px" />
+
 
 
 ## How I built it
