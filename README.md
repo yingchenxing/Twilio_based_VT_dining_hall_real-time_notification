@@ -49,3 +49,4 @@ What I'm most proud of is that even though the system wasn't developed to all th
 In this contest, I learned how to use multithreading on Android side and server side. Also, I learned how to use api for SMS.
 
 ## What's next for Twilio＿based_VT_dining_hall_real-time_notification
+Our current system only supports sending SMS to each mobile number once per day. So our next step is to make our system capable of sending SMS to a mobile number multiple times a day at different times. And let users set different SMS sending time for different days from Monday to Sunday. In fact, the system's restful api is now fully capable of meeting these functions. It's just that these tasks are difficult to complete in 36 hours.
