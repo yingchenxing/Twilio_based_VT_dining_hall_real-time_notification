@@ -17,3 +17,6 @@ Based on this situation, we have developed a system that can monitor the number 
 
 
 ## Project Innovation
+This project integrates yolov5, Springboot, Android application and Twilio service. Users are able to customize the time they receive canteen information according to their own schedule, making full use of the Twilio service. The system also provides a full restful api for more detailed customization needs.
+
+## Project Preview
